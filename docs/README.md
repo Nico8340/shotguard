@@ -20,20 +20,16 @@ Shotguard works by monitors players' weapon data and statistics in the backgroun
 
 ## FAQ
 - **Q: What game mode is Shotguard designed for?**
-<br>
 **A:** Shotguard can be used with pretty much any game mode, as it calculates the fire rate through Multi Theft Auto's API, using Grand Theft Auto's logic.
 
 - **Q When will the stable release of Shotguard be released?**
-<br>
-**A:** Since some modifications are needed in bullet sync, which can only be done in the mtasa-blue repositry, the stable release date is not up to me.
+- **A:** Since some modifications are needed in bullet sync, which can only be done in the mtasa-blue repositry, the stable release date is not up to me.
 
 - **Q: What configuration or setup process do I need to use Shotguard?**
-<br>
-**A:** None. Shotguard calculates all values ​​automatically, so there is no need for manual configuration.
+- **A:** None. Shotguard calculates all values ​​automatically, so there is no need for manual configuration.
 
 - **Q: What should I do if a player is falsely banned?**
-<br>
-**A:** The resource is not connected to any central server, so you can do investigation yourself. If you find a bug, feel free to report it in our GitHub repository.
+- **A:** The resource is not connected to any central server, so you can do investigation yourself. If you find a bug, feel free to report it in our GitHub repository.
 
 ## Bans
 Each ban is assigned a case number, which is a hash of the player's data. This helps players with ban appeals, as they don't have to share any personal information publicly, but the staff can easily find them.
