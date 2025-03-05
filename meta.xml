@@ -1,0 +1,13 @@
+<meta>
+    <info name="Shotguard" description="Monitors and prevents rapid, consecutive shots to prevent exploitative shooting" author="Nico834" type="script" version="0.1.0" />
+    <min_mta_version both="1.6.0" />
+
+    <script type="server" src="src\shotguardStats.lua" />
+    <script type="server" src="src\shotguardRates.lua" />
+    <script type="server" src="src\shotguardReport.lua" />
+    <script type="server" src="src\shotguardMonitor.lua" />
+
+    <aclrequest>
+        <right name="function.banPlayer" access="true" />
+    </aclrequest>
+</meta>
